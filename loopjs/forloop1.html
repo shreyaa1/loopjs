@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> for loop</title>
+
+</head>
+<body>
+	<button onclick="click()">click me</button>
+	<script type="text/javascript">
+		function click(height) {
+			
+			for(var i = 1; i<height; i++){
+			var row = " "	
+				for( var j = 1; j<i; j++){
+            var row = row + "*";  
+
+
+			}
+document.write(row + "</br>");
+			     
+				}
+			
+		}
+
+		click(5)
+
+	</script>
+
+</body>
+</html>
